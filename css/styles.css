@@ -31,8 +31,29 @@
     justify-content: center;
     align-items: center;
     border-radius: 0.75rem;
+    /* color: transparent; */
     box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
 }
+
+.board .open {
+    background-color: aqua;
+    cursor: default;
+    color: white;
+}
+
+.board .close {
+    background-color: black;
+    cursor: pointer;
+    color: transparent;
+}
+
+/* .board .hidden {
+    opacity: 0;
+}
+
+.board .shown {
+    opacity: 1;
+} */
 
 
 /* hide a card */
